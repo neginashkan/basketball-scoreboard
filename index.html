@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f2f9338970.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Basketball Scoreboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h1>HOME</h1>
+            <div id="home-score" class="score-style"></div>
+            <div class="buttons">
+                <button class="button-style" onclick="plus_1_home()">+1</button>
+                <button class="button-style" onclick="plus_2_home()">+2</button>
+                <button class="button-style" onclick="plus_3_home()">+3</button>
+                <button class="button-style" onclick="clean_home_score()"><i class="fas fa-trash-alt"></i></button>
+            </div>
+        </div>
+        <div class="guest">
+            <h1>GUEST</h1>
+            <div id="guest-score" class="score-style"></div>
+            <div class="buttons">
+                <button class="button-style" onclick="plus_1_guest()">+1</button>
+                <button class="button-style" onclick="plus_2_guest()">+2</button>
+                <button class="button-style" onclick="plus_3_guest()">+3</button>
+                <button class="button-style" onclick="clean_guest_score()"><i class="fas fa-trash-alt"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="javaScript/index.js"></script>
+</body>
+</html>

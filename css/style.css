@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "CursedTimerUlil";
+    src: url("/fonts/CursedTimerUlil-Aznm.ttf");
+}
+@font-face {
+    font-family:"Basketball";
+    src: url(/fonts/Basketball.otf);
+}
+body{
+    font-family:"Basketball";
+    margin: 0px;
+    background-color: #946245;
+    color: #FFE8D1;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    width: 575px;
+    height: 385px;
+}
+h1{
+    font-weight: bold;
+    font-size: 70px;
+    width: 149px;
+    height: 36px;
+}
+.buttons{
+    display: inline-block;
+    width: 155px;
+    height: 45px;
+}
+.button-style , .score-style {
+    font-family: "CursedTimerUlil";
+    border-radius: 5px;
+}
+.button-style{
+    margin: 30px 1px 0px;
+    color: #FFE8D1;
+    background-color:  #946245; 
+    border: 1px solid  #FFE8D1;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.score-style{
+    width: 155px;
+    height: 120px;
+    background-color: #f8741c;
+    color: #080001;
+    font-size: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* hover and focus effects */
+.button-style:focus{
+    background-color: #FFE8D1;
+    color: #946245;
+}
+.button-style:hover{
+    background-color: #080001 ;
+    color: #f8741c;
+    box-shadow: #FFE8D1 0px 10px 36px 0px, rgba(255, 253, 253, 0.06) 0px 0px 0px 1px;
+}
